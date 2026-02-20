@@ -16,4 +16,4 @@ accuracy = accuracy_score(y_test, predictions)
 
 joblib.dump(model, "models/model.pkl")
 
-print("Accuracy:", accuracy)
+print("Training completed successfully. Accuracy:", accuracy)
